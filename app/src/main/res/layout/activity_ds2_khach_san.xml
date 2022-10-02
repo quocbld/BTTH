@@ -4,6 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DS2KhachSan">
+    tools:context=".DS2KhachSan"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/datphong"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="50dp"
+        android:text="ĐẶT PHÒNG"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin khách hàng"
+            android:textSize="40dp"
+            android:textColor="#3300ff"
+            android:layout_marginBottom="50dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Họ và tên"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CMND"/>
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Xác Nhận"
+            android:textColorHint="#FF00"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

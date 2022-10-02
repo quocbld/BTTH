@@ -5,5 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DSKhachSan">
+    <ListView
+        android:id="@+id/listviewKhachSan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="144dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="vang">#ff0</color>     <!-- Màu đỏ -->
+    <color name="red">#f00</color>    <!-- Màu xanh da trời -->
 </resources>

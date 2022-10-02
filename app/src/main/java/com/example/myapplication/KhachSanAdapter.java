@@ -1,4 +1,4 @@
-package com.example.quoc_2050531200260;
+package com.example.myapplication;
 
 import android.content.Context;
 import android.view.LayoutInflater;

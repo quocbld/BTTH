@@ -1,4 +1,4 @@
-package com.example.quoc_2050531200260;
+package com.example.myapplication;
 
 public class KhachSan {
     private String Ten;
