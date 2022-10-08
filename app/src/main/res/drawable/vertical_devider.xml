@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This drawable file to define the space between component in LinearLayout-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="5dp"
+        android:width="0dp"/>
+</shape>
