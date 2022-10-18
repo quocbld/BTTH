@@ -23,9 +23,6 @@
             android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name=".MyHome"
-            android:exported="false" />
-        <activity
             android:name=".DangKi"
             android:exported="false" />
         <activity

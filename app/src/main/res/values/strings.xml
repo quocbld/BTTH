@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="home_text">Home</string>
+    <string name="profile_text">Profile</string>
+    <string name="list_text">List</string>
+    <string name="my_quote">Work hard until your idol becomes your rival</string>
+    <string name="my_name">Le Ba Quoc</string>
 </resources>

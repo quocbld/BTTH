@@ -3,16 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BTTH/app/src/main/res/drawable/ic_add.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/drawable/ic_app_icon.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/drawable/ic_navigation.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/drawable/item_select.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/drawable/vien.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/drawable/viennav.xml" value="0.1325" />
+        <entry key="..\:/BTTH/app/src/main/res/layout/activity_ds2_khach_san.xml" value="0.21388888888888888" />
+        <entry key="..\:/BTTH/app/src/main/res/layout/activity_main.xml" value="0.21388888888888888" />
+        <entry key="..\:/BTTH/app/src/main/res/layout/item_add.xml" value="0.1361111111111111" />
+        <entry key="..\:/BTTH/app/src/main/res/layout/item_info.xml" value="0.1361111111111111" />
+        <entry key="..\:/BTTH/app/src/main/res/menu/item_menu.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable-v24/background3.xml" value="0.124" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/button.xml" value="0.123" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.124" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/ic_home.xml" value="0.184" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/ic_username.xml" value="0.124" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/item_select.xml" value="0.184" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/vien.xml" value="0.184" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/drawable/viennav.xml" value="0.184" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_dang_ki.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_ds2_khach_san.xml" value="0.1" />
-        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_dskhach_san.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_ds2_khach_san.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_dskhach_san.xml" value="0.35311143270622286" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_main.xml" value="0.536" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_my_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/activity_profile.xml" value="0.152" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/hinh_khach_san.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/item_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/layout/item_image.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/menu/item_menu.xml" value="0.253125" />
         <entry key="..\:/Users/ADMIN/OneDrive/Desktop/BTTH/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.184" />
       </map>
     </option>

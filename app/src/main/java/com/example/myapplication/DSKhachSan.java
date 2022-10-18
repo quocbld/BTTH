@@ -1,14 +1,19 @@
 package com.example.myapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -16,6 +21,7 @@ public class DSKhachSan extends AppCompatActivity {
     ListView lvKhachSan;
     ArrayList<KhachSan> arrayKhachSan;
     KhachSanAdapter adapter;
+    ImageView imgback;
     int vitri=0;
 
     @Override
@@ -23,6 +29,30 @@ public class DSKhachSan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dskhach_san);
         Anhxa();
+        BottomNavigationView btnav = findViewById(R.id.btnavigation2);
+        btnav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.nav_home:{
+                        Intent intent = new Intent(DSKhachSan.this,MainActivity.class);
+                        startActivity(intent);}
+                    break;
+                    case R.id.nav_profile: {
+                        Intent intent = new Intent(DSKhachSan.this, Profile.class);
+                        startActivity(intent);
+                    }
+                    break;
+                    case R.id.nav_list:{
+                        Intent intent = new Intent(DSKhachSan.this,DSKhachSan.class);
+                        startActivity(intent);
+                    }
+                    break;
+
+                }
+                return true;
+            }
+        });
         adapter = new KhachSanAdapter(this,R.layout.hinh_khach_san,arrayKhachSan);
         lvKhachSan.setAdapter(adapter);
         lvKhachSan.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -35,8 +65,10 @@ public class DSKhachSan extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 Intent intent = new Intent(DSKhachSan.this, DS2KhachSan.class);
-                startActivity(intent);
-            }
+                    intent.putExtra("phong",arrayKhachSan.get(i).getTen());
+                        startActivity(intent);
+
+                }
         });
         lvKhachSan.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override

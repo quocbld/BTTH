@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/home"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="215dp"
-        android:layout_height="233dp"
+        android:layout_width="wrap_content"
+        android:layout_height="306dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
 
-        android:layout_marginStart="78dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="86dp"
         android:orientation="vertical">
 
         <TextView
@@ -37,13 +37,14 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="0dp"
             android:hint="UserName" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:text="PassWord"
-            android:textSize="18dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -51,34 +52,50 @@
             android:layout_height="50dp"
             android:layout_marginLeft="30dp"
             android:ems="10"
-            android:inputType="textPassword"
-            android:hint="PassWord"/>
+            android:hint="PassWord"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhớ mật khẩu" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="88dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/ButtonSignIn"
-                android:background="@drawable/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button"
                 android:text="Sign In"
                 android:textColor="@color/black" />
+
             <Button
                 android:id="@+id/ButtonSignUp"
-                android:background="@drawable/button"
-                android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button"
                 android:text="Sign Up"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
+
         </LinearLayout>
 
 
-
     </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/item_menu" />
 
 
 </RelativeLayout>

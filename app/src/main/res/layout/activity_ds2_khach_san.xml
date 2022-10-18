@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DS2KhachSan"
     android:background="@drawable/background1">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/btnavigation3"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/item_menu"
+        android:background="@color/white"/>
     <TextView
         android:id="@+id/datphong"
         android:layout_width="match_parent"
@@ -15,6 +22,15 @@
         android:textStyle="bold"
         android:textColor="#ff00"
         tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tenks"
+        android:layout_below="@id/datphong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thông tin khách hàng"
-            android:textSize="40dp"
+            android:textSize="35dp"
             android:textColor="#3300ff"
             android:layout_marginBottom="50dp"/>
         <EditText
@@ -50,4 +66,4 @@
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

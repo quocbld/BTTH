@@ -12,15 +12,17 @@
         android:id="@+id/buttonDs"
         android:layout_width="220dp"
         android:layout_height="104dp"
+        android:layout_marginTop="10dp"
+        android:background="#F9F400"
         android:text="Danh sách"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.64" />
 
     <Button
+        android:background="#F9F400"
         android:id="@+id/buttonProfile"
         android:layout_width="220dp"
         android:layout_height="104dp"
